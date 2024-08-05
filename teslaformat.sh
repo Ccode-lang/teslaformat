@@ -1,6 +1,6 @@
 BLOCK=$1
 
-umount /dev/$BLOCK?*
+umount $BLOCK?*
 
 (
 echo o
